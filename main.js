@@ -8,7 +8,7 @@ learnMore.addEventListener("click", openYtNewTab);
 
 
 function openYtNewTab() {
-    window.open("https://youtube.com/@oliviajoyryan", "_blank");
+    window.open("https://youtube.com/@oliviajoyryan_", "_blank");
 }
 
 function openTwitterNewTab() {
