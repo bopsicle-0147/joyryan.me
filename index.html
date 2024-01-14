@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>joyryan.me</title>
+    <style>
+      .bg-grey {
+        background-color: #c9c9c9;
+      }
+
+      .heading-font {
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        font-size: 50px;
+      }
+
+      .margin-lr-15 {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+
+      .display-flex {
+        display: flex;
+      }
+
+      .justify-space-between {
+        justify-content: space-between;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+
+      .padding-tb-40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .social-buttons {
+        border-width: 0;
+        padding: 5px;
+      }
+
+      .info-margins {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        position: absolute;
+        left: 175px;
+      }
+
+      .pfp-measurements {
+        width: 312px;
+        height: 312px;
+        position: relative;
+        left: 212px;
+        filter: drop-shadow(5px 5px 4px #666666);
+        outline-color: #f2a105;
+        outline-width: 4px;
+        outline-style: solid;
+        border-radius: 30px;
+      }
+
+      .align-text-center {
+        text-align: center;
+      }
+
+      .learn_button {
+        width: 182px;
+        height: 57px;
+        font-size: 26px;
+        background-color: #f2a105;
+        border-width: 0;
+        border-radius: 15px;
+        position: relative;
+        left: 160px;
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+
+      .shadow-hover:hover {
+        filter: drop-shadow(5px 5px 4px #666666);
+        transition: 0.3s;
+      }
+    </style>
+  </head>
+  <body class="bg-grey">
+    <header class="margin-lr-15">
+      <div class="display-flex justify-space-between">
+        <h1 class="heading-font">joyryan.me</h1>
+        <div class="padding-tb-40">
+          <button class="social-buttons bg-grey" id="youtube channel">
+            <img src="Youtubeicon.png" alt="youtube" />
+          </button>
+          <button class="social-buttons bg-grey" id="twitter account">
+            <img src="Twittericon.png" alt="twitter" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="display-flex justify-content margin-lr-15 info-margins">
+      <div class="heading-font" style="width: 540px">
+        <h2 style="font-size: 37px; font-weight: 300">
+          Hi! Welcome to my node on the internet...
+        </h2>
+        <h3 style="font-size: 25px; font-weight: 300" class="align-text-center">
+          My name is Joy Ryan. I am a highschooler who loves to share what I
+          learn.
+        </h3>
+        <button class="learn_button shadow-hover" id="Learn More Button">
+          Learn More
+        </button>
+      </div>
+      <div class="pfp-measurements">
+        <img
+          src="pfp.jpeg"
+          alt="profile picture"
+          width="312"
+          height="312"
+          style="border-radius: 30px"
+        />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
